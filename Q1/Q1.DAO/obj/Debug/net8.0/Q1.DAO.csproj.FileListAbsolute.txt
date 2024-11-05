@@ -1,0 +1,14 @@
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/bin/Debug/net8.0/Q1.DAO.deps.json
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/bin/Debug/net8.0/Q1.DAO.runtimeconfig.json
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/bin/Debug/net8.0/Q1.DAO.dll
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/bin/Debug/net8.0/Q1.DAO.pdb
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/Q1.DAO.csproj.AssemblyReference.cache
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/Q1.DAO.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/Q1.DAO.AssemblyInfoInputs.cache
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/Q1.DAO.AssemblyInfo.cs
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/Q1.DAO.csproj.CoreCompileInputs.cache
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/Q1.DAO.dll
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/refint/Q1.DAO.dll
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/Q1.DAO.pdb
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/Q1.DAO.genruntimeconfig.cache
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/ref/Q1.DAO.dll

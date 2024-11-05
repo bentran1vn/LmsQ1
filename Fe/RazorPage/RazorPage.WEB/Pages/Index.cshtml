@@ -1,0 +1,52 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Silver Jewelry List";
+}
+
+<h1>Silver Jewelry List</h1>
+
+<p>
+    <a asp-page="Create" class="btn btn-primary">Create New</a>
+</p>
+
+<form method="get">
+    <div class="form-group">
+        <input asp-for="SearchTerm" class="form-control" placeholder="Search..." />
+        <button type="submit" class="btn btn-primary mt-2">Search</button>
+    </div>
+</form>
+
+<table class="table">
+    <thead>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Price</th>
+        <th>Weight</th>
+        <th>Year</th>
+        <th>Category</th>
+        <th>Actions</th>
+    </tr>
+    </thead>
+    <tbody>
+    @foreach (var item in Model.Jewelries)
+    {
+        <tr>
+            <td>@item.SilverJewelryId</td>
+            <td>@item.SilverJewelryName</td>
+            <td>@item.SilverJewelryDescription</td>
+            <td>@item.Price.ToString("C")</td>
+            <td>@item.MetalWeight</td>
+            <td>@item.ProductionYear</td>
+            <td>@item.CategoryId</td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.SilverJewelryId" class="btn btn-primary btn-sm">Edit</a>
+                <a asp-page="./Details" asp-route-id="@item.SilverJewelryId" class="btn btn-info btn-sm">Details</a>
+                <a asp-page="./Delete" asp-route-id="@item.SilverJewelryId" class="btn btn-danger btn-sm">Delete</a>
+            </td>
+        </tr>
+    }
+    </tbody>
+</table>

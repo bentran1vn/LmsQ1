@@ -1,0 +1,60 @@
+@page
+@model CreateModel
+@{
+    ViewData["Title"] = "Create Silver Jewelry";
+}
+
+<h1>Create New Silver Jewelry</h1>
+
+<form method="post">
+    <div class="form-group">
+        <label asp-for="Jewelry.SilverJewelryId"></label>
+        <input asp-for="Jewelry.SilverJewelryId" class="form-control" />
+        <span asp-validation-for="Jewelry.SilverJewelryId" class="text-danger"></span>
+    </div>
+    
+    <div class="form-group">
+        <label asp-for="Jewelry.SilverJewelryName"></label>
+        <input asp-for="Jewelry.SilverJewelryName" class="form-control"/>
+        <span asp-validation-for="Jewelry.SilverJewelryName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Jewelry.SilverJewelryDescription"></label>
+        <textarea asp-for="Jewelry.SilverJewelryDescription" class="form-control"></textarea>
+        <span asp-validation-for="Jewelry.SilverJewelryDescription" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Jewelry.Price"></label>
+        <input asp-for="Jewelry.Price" class="form-control" type="number" step="0.01"/>
+        <span asp-validation-for="Jewelry.Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Jewelry.MetalWeight"></label>
+        <input asp-for="Jewelry.MetalWeight" class="form-control" type="number" step="0.01"/>
+        <span asp-validation-for="Jewelry.MetalWeight" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Jewelry.ProductionYear"></label>
+        <input asp-for="Jewelry.ProductionYear" class="form-control" type="number"/>
+        <span asp-validation-for="Jewelry.ProductionYear" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Jewelry.CategoryId">Category</label>
+        <select asp-for="Jewelry.CategoryId" class="form-control">
+            <option value="">-- Select Category --</option>
+            @foreach (var category in Model.Categories)
+            {
+            <option value="@category.CategoryId">@category.CategoryName</option>
+            }
+        </select>
+        <span asp-validation-for="Jewelry.CategoryId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Create</button>
+    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+</form>

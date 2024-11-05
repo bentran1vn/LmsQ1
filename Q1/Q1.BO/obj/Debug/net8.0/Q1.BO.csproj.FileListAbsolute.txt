@@ -1,0 +1,15 @@
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/bin/Debug/net8.0/Q1.BO.deps.json
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/bin/Debug/net8.0/Q1.BO.dll
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/bin/Debug/net8.0/Q1.BO.pdb
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/bin/Debug/net8.0/Q1.DAO.dll
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/bin/Debug/net8.0/Q1.DAO.pdb
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/Q1.BO.csproj.AssemblyReference.cache
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/Q1.BO.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/Q1.BO.AssemblyInfoInputs.cache
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/Q1.BO.AssemblyInfo.cs
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/Q1.BO.csproj.CoreCompileInputs.cache
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/Q1.BO.csproj.Up2Date
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/Q1.BO.dll
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/refint/Q1.BO.dll
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/Q1.BO.pdb
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/ref/Q1.BO.dll
