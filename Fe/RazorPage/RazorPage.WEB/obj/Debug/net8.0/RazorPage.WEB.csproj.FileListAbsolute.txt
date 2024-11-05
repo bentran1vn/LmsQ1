@@ -28,3 +28,4 @@
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Fe/RazorPage/RazorPage.WEB/obj/Debug/net8.0/RazorPage.WEB.pdb
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Fe/RazorPage/RazorPage.WEB/obj/Debug/net8.0/RazorPage.WEB.genruntimeconfig.cache
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Fe/RazorPage/RazorPage.WEB/obj/Debug/net8.0/ref/RazorPage.WEB.dll
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Fe/RazorPage/RazorPage.WEB/obj/Debug/net8.0/RazorPage.WEB.sourcelink.json

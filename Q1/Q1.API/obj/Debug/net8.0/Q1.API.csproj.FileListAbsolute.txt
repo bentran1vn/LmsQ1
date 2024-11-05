@@ -76,3 +76,4 @@
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.API/obj/Debug/net8.0/Q1.API.pdb
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.API/obj/Debug/net8.0/Q1.API.genruntimeconfig.cache
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.API/obj/Debug/net8.0/ref/Q1.API.dll
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.API/obj/Debug/net8.0/Q1.API.sourcelink.json

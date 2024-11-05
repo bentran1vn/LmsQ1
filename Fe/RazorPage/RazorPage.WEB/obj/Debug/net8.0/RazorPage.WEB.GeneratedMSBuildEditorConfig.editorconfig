@@ -22,12 +22,28 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQ3JlYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Fe/RazorPage/RazorPage.WEB/Pages/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Fe/RazorPage/RazorPage.WEB/Pages/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Fe/RazorPage/RazorPage.WEB/Pages/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Fe/RazorPage/RazorPage.WEB/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Fe/RazorPage/RazorPage.WEB/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Fe/RazorPage/RazorPage.WEB/Pages/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvTG9naW4uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Fe/RazorPage/RazorPage.WEB/Pages/Privacy.cshtml]

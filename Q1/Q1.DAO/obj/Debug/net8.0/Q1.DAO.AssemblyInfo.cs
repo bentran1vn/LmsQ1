@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Q1.DAO")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+75f7f5299987eae36ba4cdb7ffd4203348656cf0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Q1.DAO")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Q1.DAO")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

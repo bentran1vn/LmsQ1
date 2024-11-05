@@ -13,3 +13,4 @@
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/refint/Q1.BO.dll
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/Q1.BO.pdb
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/ref/Q1.BO.dll
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.BO/obj/Debug/net8.0/Q1.BO.sourcelink.json

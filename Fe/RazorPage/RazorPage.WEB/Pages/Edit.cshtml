@@ -1,0 +1,57 @@
+@page "{id}"
+@model EditModel
+@{
+    ViewData["Title"] = "Edit Silver Jewelry";
+}
+
+<h1>Edit Silver Jewelry</h1>
+
+<form method="post">
+    <input type="hidden" asp-for="Jewelry.SilverJewelryId" />
+    <input type="hidden" asp-for="Jewelry.CreatedDate" />
+
+    <div class="form-group">
+        <label asp-for="Jewelry.SilverJewelryName"></label>
+        <input asp-for="Jewelry.SilverJewelryName" class="form-control" />
+        <span asp-validation-for="Jewelry.SilverJewelryName" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Jewelry.SilverJewelryDescription"></label>
+        <textarea asp-for="Jewelry.SilverJewelryDescription" class="form-control"></textarea>
+        <span asp-validation-for="Jewelry.SilverJewelryDescription" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Jewelry.Price"></label>
+        <input asp-for="Jewelry.Price" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="Jewelry.Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Jewelry.MetalWeight"></label>
+        <input asp-for="Jewelry.MetalWeight" class="form-control" type="number" step="0.01" />
+        <span asp-validation-for="Jewelry.MetalWeight" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Jewelry.ProductionYear"></label>
+        <input asp-for="Jewelry.ProductionYear" class="form-control" type="number" />
+        <span asp-validation-for="Jewelry.ProductionYear" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Jewelry.CategoryId">Category</label>
+        <select asp-for="Jewelry.CategoryId" class="form-control">
+            <option value="">-- Select Category --</option>
+            @foreach (var category in Model.Categories)
+            {
+            <option value="@category.CategoryId">@category.CategoryName</option>
+            }
+        </select>
+        <span asp-validation-for="Jewelry.CategoryId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Save</button>
+    <a asp-page="Index" class="btn btn-secondary">Back to List</a>
+</form>

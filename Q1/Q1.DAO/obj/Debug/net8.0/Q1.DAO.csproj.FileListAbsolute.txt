@@ -12,3 +12,4 @@
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/Q1.DAO.pdb
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/Q1.DAO.genruntimeconfig.cache
 /Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/ref/Q1.DAO.dll
+/Users/tantran/Documents/WorkSpace/PRN231_LMS/Q1/Q1/Q1.DAO/obj/Debug/net8.0/Q1.DAO.sourcelink.json

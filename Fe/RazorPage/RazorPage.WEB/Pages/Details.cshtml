@@ -1,0 +1,40 @@
+@page "{id}"
+@model DetailsModel
+@{
+    ViewData["Title"] = "Silver Jewelry Details";
+}
+
+<h1>Silver Jewelry Details</h1>
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-3">ID</dt>
+        <dd class="col-sm-9">@Model.Jewelry.SilverJewelryId</dd>
+
+        <dt class="col-sm-3">Name</dt>
+        <dd class="col-sm-9">@Model.Jewelry.SilverJewelryName</dd>
+
+        <dt class="col-sm-3">Description</dt>
+        <dd class="col-sm-9">@Model.Jewelry.SilverJewelryDescription</dd>
+
+        <dt class="col-sm-3">Price</dt>
+        <dd class="col-sm-9">@Model.Jewelry.Price.ToString("C")</dd>
+
+        <dt class="col-sm-3">Metal Weight</dt>
+        <dd class="col-sm-9">@Model.Jewelry.MetalWeight</dd>
+
+        <dt class="col-sm-3">Production Year</dt>
+        <dd class="col-sm-9">@Model.Jewelry.ProductionYear</dd>
+
+        <dt class="col-sm-3">Category ID</dt>
+        <dd class="col-sm-9">@Model.Jewelry.CategoryId</dd>
+
+        <dt class="col-sm-3">Created Date</dt>
+        <dd class="col-sm-9">@Model.Jewelry.CreatedDate.ToString("g")</dd>
+    </dl>
+</div>
+
+<div>
+    <a asp-page="./Edit" asp-route-id="@Model.Jewelry.SilverJewelryId" class="btn btn-primary">Edit</a>
+    <a asp-page="./Index" class="btn btn-secondary">Back to List</a>
+</div>

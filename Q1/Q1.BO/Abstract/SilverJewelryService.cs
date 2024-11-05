@@ -9,4 +9,5 @@ public interface ISilverJewelryService
     Task UpdateSJ(Request.Create request);
     Task DeleteSJ(string id);
     Task<List<Request.Create>> GetAll(string? searchTerm);
+    Task<Request.Create> GetById(string id);
 }

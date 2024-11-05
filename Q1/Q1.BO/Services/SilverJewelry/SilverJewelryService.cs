@@ -81,6 +81,26 @@ public class SilverJewelryService : ISilverJewelryService
         return result;
     }
 
+    public async Task<Request.Create> GetById(string id)
+    {
+        var sJE = await _silverJewelryServiceRepository.FindSingleAsync(x =>
+            x.SilverJewelryId.Equals(id));
+
+        if (sJE is null) throw new Exception("Siv Je is not Exist !");
+
+        return new Request.Create()
+        {
+            SilverJewelryId = sJE.SilverJewelryId,
+            SilverJewelryDescription = sJE.SilverJewelryDescription,
+            SilverJewelryName = sJE.SilverJewelryName,
+            CategoryId = sJE.CategoryId,
+            Price = sJE.Price ?? 0,
+            CreatedDate = sJE.CreatedDate ?? DateTime.Now,
+            ProductionYear = sJE.ProductionYear ?? 0,
+            MetalWeight = sJE.MetalWeight
+        };
+    }
+
     public async Task UpdateSJ(Request.Create request)
     {
         var sJE = await _silverJewelryServiceRepository.FindSingleAsync(x =>

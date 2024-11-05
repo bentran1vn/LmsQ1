@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Q1.BO.Abstract;
 using Q1.BO.Services.SilverJewelry;
@@ -63,6 +64,20 @@ public class SilverJewelryController : ControllerBase
         try
         {
             var result = await _silverJewelryService.GetAll(searchTerm);
+            return Ok(result);
+        }
+        catch (Exception e)
+        {
+            return StatusCode(500, e.Message);
+        }
+    }
+    
+    [HttpGet("{silverJewelryId}")]
+    public async Task<IActionResult> GetSilById(string silverJewelryId)
+    {
+        try
+        {
+            var result = await _silverJewelryService.GetById(silverJewelryId);
             return Ok(result);
         }
         catch (Exception e)
